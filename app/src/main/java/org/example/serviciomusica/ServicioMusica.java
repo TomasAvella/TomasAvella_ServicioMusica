@@ -27,13 +27,13 @@ public class ServicioMusica extends Service {
         //notificationManager= (NotificationManager)getSystemService(NOTIFICATION_SERVICE);
 
     }
-    @Override
+    /*@Override
     public int onStartCommand(Intent intent, int flags, int idArranque) {
         Toast.makeText(this,"Servicio arrancado "+ idArranque, Toast.LENGTH_SHORT).show();
 
         reproductor.start();
         return START_STICKY;
-    }
+    }*/
     //Practica 8.2
     @Override
     public void onStart(Intent intent, int startId) {
